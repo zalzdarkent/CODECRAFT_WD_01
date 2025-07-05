@@ -108,21 +108,21 @@ export default function Home() {
                 📧
               </div>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="opacity-80">contact@example.com</p>
+              <p className="opacity-80">2210631170004@student.unsika.ac.id</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 📱
               </div>
               <h3 className="text-xl font-semibold mb-2">Phone</h3>
-              <p className="opacity-80">+1 (555) 123-4567</p>
+              <p className="opacity-80">+62 813 6141 5931</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 📍
               </div>
               <h3 className="text-xl font-semibold mb-2">Location</h3>
-              <p className="opacity-80">New York, NY</p>
+              <p className="opacity-80">Karawang, West Java</p>
             </div>
           </div>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300">
