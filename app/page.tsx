@@ -34,15 +34,15 @@ export default function Home() {
           </p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Responsive Design</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-400">Responsive Design</h3>
               <p className="text-gray-600">Adapts perfectly to all screen sizes with mobile-friendly menu</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Smooth Animations</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-400">Smooth Animations</h3>
               <p className="text-gray-600">Beautiful transitions and hover effects enhance user experience</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Fixed Position</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-400">Fixed Position</h3>
               <p className="text-gray-600">Always accessible navigation that stays visible while scrolling</p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl">
                   {item}
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Service {item}</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-400">Service {item}</h3>
                 <p className="text-gray-600">Professional development service with attention to detail and user experience</p>
               </div>
             ))}
@@ -85,7 +85,7 @@ export default function Home() {
             {[1, 2, 3, 4, 5, 6].map((item) => (
               <div key={item} className="group cursor-pointer">
                 <div className="bg-gradient-to-br from-blue-400 to-purple-600 h-64 rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"></div>
-                <h3 className="text-xl font-semibold mb-2">Project {item}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-gray-400">Project {item}</h3>
                 <p className="text-gray-600">Interactive navigation implementation with modern design</p>
               </div>
             ))}
