@@ -1,80 +1,80 @@
 # Interactive Navigation Menu
 
-Sebuah implementasi menu navigasi interaktif yang dibuat dengan Next.js dan Tailwind CSS. Menu ini menampilkan efek visual yang menarik saat di-scroll atau di-hover, dengan posisi fixed yang selalu terlihat di semua halaman.
+An interactive navigation menu implementation built with Next.js and Tailwind CSS. This menu displays attractive visual effects when scrolled or hovered, with a fixed position that remains visible on all pages.
 
-## 🚀 Fitur Utama
+## 🚀 Key Features
 
 ### ✨ **Interactive Effects**
-- **Color Change on Scroll**: Menu berubah dari transparan menjadi putih dengan backdrop blur effect saat halaman di-scroll
-- **Hover Effects**: Efek hover yang smooth dengan perubahan warna dan background
-- **Active State Detection**: Menu item otomatis ter-highlight sesuai section yang sedang dilihat
-- **Scale Animation**: Efek scale pada tombol dan menu items saat di-hover
+- **Color Change on Scroll**: Menu changes from transparent to white with backdrop blur effect when page is scrolled
+- **Hover Effects**: Smooth hover effects with color and background changes
+- **Active State Detection**: Menu items automatically highlight based on the section currently in view
+- **Scale Animation**: Scale effects on buttons and menu items when hovered
 
 ### 📱 **Responsive Design**
-- **Desktop Navigation**: Menu horizontal dengan semua items terlihat
-- **Mobile Navigation**: Hamburger menu dengan slide animation
-- **Touch Friendly**: Area tap yang optimal untuk perangkat mobile
-- **Cross-Device**: Konsisten di semua ukuran layar
+- **Desktop Navigation**: Horizontal menu with all items visible
+- **Mobile Navigation**: Hamburger menu with slide animation
+- **Touch Friendly**: Optimal tap areas for mobile devices
+- **Cross-Device**: Consistent across all screen sizes
 
 ### 🎨 **Visual Features**
-- **Fixed Position**: Menu selalu terlihat saat scroll
-- **Backdrop Blur**: Efek blur pada background menu
-- **Smooth Transitions**: Semua animasi menggunakan CSS transitions
-- **Modern Gradient**: Hero section dengan gradient background
-- **Custom Scrollbar**: Scrollbar yang di-style untuk tampilan lebih baik
+- **Fixed Position**: Menu always visible when scrolling
+- **Backdrop Blur**: Blur effect on menu background
+- **Smooth Transitions**: All animations use CSS transitions
+- **Modern Gradient**: Hero section with gradient background
+- **Custom Scrollbar**: Styled scrollbar for better appearance
 
 ## 🛠 Getting Started
 
-Jalankan development server:
+Run the development server:
 
 ```bash
 npm run dev
-# atau
+# or
 yarn dev
-# atau
+# or
 pnpm dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📁 Struktur Project
+## 📁 Project Structure
 
 ```
 app/
 ├── components/
-│   └── Navigation.tsx      # Komponen navigation menu utama
-├── globals.css            # Global styles dan custom animations
+│   └── Navigation.tsx      # Main navigation menu component
+├── globals.css            # Global styles and custom animations
 ├── layout.tsx            # Root layout
-└── page.tsx              # Homepage dengan multiple sections
+└── page.tsx              # Homepage with multiple sections
 ```
 
-## 🎯 Cara Kerja Navigation
+## 🎯 How Navigation Works
 
 ### Desktop Menu
-- Menu items ditampilkan horizontal
-- Hover effect dengan perubahan warna dan background
-- Active state berdasarkan section yang sedang dilihat
-- Smooth scroll ke section tujuan
+- Menu items displayed horizontally
+- Hover effects with color and background changes
+- Active state based on currently viewed section
+- Smooth scroll to target section
 
 ### Mobile Menu
-- Hamburger icon yang berubah menjadi X saat dibuka
-- Slide down animation dengan staggered effect
-- Overlay background semi-transparan
-- Auto-close saat mengklik menu item atau area luar
+- Hamburger icon that changes to X when opened
+- Slide down animation with staggered effect
+- Semi-transparent overlay background
+- Auto-close when clicking menu items or outside area
 
 ### Active State Detection
-- Menggunakan scroll event listener untuk deteksi section
-- Section dianggap active jika berada di tengah viewport
-- Real-time update tanpa lag
-- Visual feedback dengan highlighting menu item
+- Uses scroll event listener for section detection
+- Section considered active if in center of viewport
+- Real-time updates without lag
+- Visual feedback by highlighting menu item
 
 ## 🎨 Styling & Animations
 
-Menggunakan **Tailwind CSS** untuk:
+Using **Tailwind CSS** for:
 - Responsive design utilities
-- Color schemes dan gradients
-- Spacing dan layout
-- Transition dan transform effects
+- Color schemes and gradients
+- Spacing and layout
+- Transition and transform effects
 
 Custom CSS animations:
 - `fade-in`: Hero text animation
@@ -84,26 +84,26 @@ Custom CSS animations:
 
 ## 📋 Sections
 
-1. **Home**: Hero section dengan gradient background
-2. **About**: Penjelasan fitur navigation
-3. **Services**: Grid layout dengan interactive cards
-4. **Portfolio**: Gallery dengan hover effects  
-5. **Contact**: Contact information dengan icons
+1. **Home**: Hero section with gradient background
+2. **About**: Navigation features explanation
+3. **Services**: Grid layout with interactive cards
+4. **Portfolio**: Gallery with hover effects  
+5. **Contact**: Contact information with icons
 
 ## 🔧 Technologies Used
 
-- **Next.js 15**: React framework dengan App Router
+- **Next.js 15**: React framework with App Router
 - **TypeScript**: Type-safe development
 - **Tailwind CSS**: Utility-first CSS framework
-- **React Hooks**: useState dan useEffect untuk state management
+- **React Hooks**: useState and useEffect for state management
 
 ## 📝 Assignment Requirements ✅
 
-- ✅ Menu navigasi interaktif dengan perubahan warna/style
-- ✅ Efek saat di-scroll (background blur, color change)
-- ✅ Efek saat di-hover (scale, color, background)
-- ✅ Fixed position yang terlihat di semua halaman
-- ✅ Menggunakan HTML untuk struktur
-- ✅ Menggunakan CSS (Tailwind) untuk styling
-- ✅ Menggunakan JavaScript untuk interaktivitas
-- ✅ Responsive design untuk mobile dan desktop
+- ✅ Interactive navigation menu with color/style changes
+- ✅ Effects when scrolled (background blur, color change)
+- ✅ Effects when hovered (scale, color, background)
+- ✅ Fixed position visible on all pages
+- ✅ Using HTML for structure
+- ✅ Using CSS (Tailwind) for styling
+- ✅ Using JavaScript for interactivity
+- ✅ Responsive design for mobile and desktop
