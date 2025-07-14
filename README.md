@@ -1,6 +1,6 @@
 # Interactive Responsive Landing Page
 
-A modern a   ```
+A modern and attractive responsive landing page with interactive navigation. This project showcases various animation features and interactions that provide optimal user experience across all devices.
 
 ## 📁 Project Structure
 
